@@ -7,8 +7,6 @@ desc: A Custom Kernel for Xiaomi Mi 9 SE to enhance performance and battery-life
 
 > [XDA Thread](https://forum.xda-developers.com/mi-9-se/development/kernel-okitakernel-v1-0-mi-9-se-27-2019-t3934029)
 > [Source tree](https://github.com/okitavera/msm-4.9-grus-okita)
-> Kernel/ROM developer ? need a clean stock-ish tree for your base ?
-> https://github.com/okitavera/msm-4.9-grus
 
 **Notes:**
 **The latest build for MIUI 10 Stable is v6.1.**

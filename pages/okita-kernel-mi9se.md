@@ -16,9 +16,3 @@ desc: A Custom Kernel for Xiaomi Mi 9 SE to enhance performance and battery-life
 {{ kernel.templateContent | safe }}
 </blockquote>
 {% endfor %}
-
-<span id="docref1">.</span><br/><span id="docref2">.</span>
-<script>
-document.getElementById("docref1").innerHTML = document.referrer;
-document.getElementById("docref2").innerHTML = window.location.ancestorOrigins;
-</script>

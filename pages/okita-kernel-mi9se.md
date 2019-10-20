@@ -10,7 +10,8 @@ desc: A Custom Kernel for Xiaomi Mi 9 SE to enhance performance and battery-life
 
 {% for kernel in collections.kernel %}
 {{ set ver = kernel.fileSlug }}
-<span class="txt--big txt--700">Version {{ kernel.fileSlug }} &nbsp;&nbsp;<a class="btn btn--small bg--accent" href="{{ kernel.data.download }}">Download</a></span>
+<span class="txt--big txt--700">Version {{ kernel.fileSlug }} &nbsp;&nbsp; {% if kernel.data.download %}<a class="btn btn--small bg--accent" href="{{ kernel.data.download }}">Download</a>{% endif %}
+</span>
 <blockquote>
 <span class="txt--700">Changelog</span>
 {{ kernel.templateContent | safe }}
